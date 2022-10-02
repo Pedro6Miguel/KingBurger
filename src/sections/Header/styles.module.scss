@@ -1,0 +1,52 @@
+.container {
+    width: 100vw;
+
+    .header {
+        background-color: red;
+        width: 100%;
+        height: 37.5rem;
+        background: url(../../assets/img/Banner.svg) no-repeat top center;
+        position: relative;
+
+        div {
+            margin-left: 16.25rem;
+            position: absolute;
+            top: 45%;
+            transform: translateY(-50%);
+
+            h5 {
+                font-size: 1.375rem;
+                color: #3B200B;
+                font-weight: 600;
+            }
+
+            h1 {
+                font-family: 'Lilita One', cursive;
+                font-size: 4.875rem;
+                color: #3B200B;
+
+                span {
+                    font-family: 'Lilita One', cursive;
+                    font-size: 4.875rem;
+                    color: #F59A1B;
+                }
+            }
+
+            p {
+                font-size: 1.25rem;
+                font-weight: 400;
+                color: #462811;
+                padding: 10px 0 26px 0;
+            }
+
+            button {
+                background-color: #F43127;
+                color: #fff;
+                padding: 10px 20px;
+                border: 1px solid #F43127;
+                font-size: 1.375rem;
+                border-radius: 0.3125rem;
+            }
+        }
+    }
+}
