@@ -1,0 +1,91 @@
+.container {
+    margin: 6.5rem 16.25rem;
+
+    h5 {
+        font-size: 32px;
+        font-family: 'Lilita One', cursive;
+        color: #1D0605E5;
+        padding: 0 0 7px 0;
+    }
+
+    .offers {
+        color: #1D0605E5;
+        opacity: .7;
+        margin: 0 0 36px 0;
+    }
+
+    .grid {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: .1fr 1fr .8fr;
+        grid-template-areas:
+            "FO FO SO"
+            "FO FO TO"
+            "SC SC IN";
+
+        .first_offer {
+            grid-area: FO;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .second_offer {
+            grid-area: SO;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .third_offer {
+            grid-area: TO;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .schedule {
+            grid-area: SC;
+            display: flex;
+            align-items: center;
+            background-color: #F43127;
+            border-radius: 10px;
+            padding-left: 20px;
+            gap: 20px;
+
+            span {
+                width: 1px;
+                height: 80px;
+                background-color: #1D060566;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+            }
+
+            p {
+                color: #fff;
+                font-weight: 500;
+            }
+        }
+
+        .instagram {
+            grid-area: IN;
+            padding: 0 0 0 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            p {
+                color: #1D0605B0;
+                padding: 0 0 6px 0;
+            }
+        }
+    }
+}

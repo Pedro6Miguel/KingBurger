@@ -6,10 +6,24 @@
   font-family: 'Lato', sans-serif;
 }
 
+body {
+  background-color: #FAF3F2;
+  overflow-x: hidden;
+}
+
 .App {
   width: 100vw;
 }
 
 li {
   list-style: none;
+}
+
+button {
+  background-color: #F43127;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #F43127;
+  font-size: 1.375rem;
+  border-radius: 0.3125rem;
 }

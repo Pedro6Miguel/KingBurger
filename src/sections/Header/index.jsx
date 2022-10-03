@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './styles.module.scss'
 import Navbar from '../../components/Navbar'
-import Banner from '../../assets/img/Banner.svg'
+import HeaderItem from '../../components/HeaderItem'
 
 function Header() {
     return (
@@ -15,6 +15,7 @@ function Header() {
                     <button>Comprar</button>
                 </div>
             </div>
+            <HeaderItem />
         </div>
     )
 }

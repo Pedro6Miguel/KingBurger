@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+
+    .left {
+        position: relative;
+        background: url(../../assets/img/Banner2.svg) no-repeat;
+        width: 48vw;
+        height: 500px;
+
+        .info {
+            position: absolute;
+            right: 40px;
+            top: 50%;
+            transform: translateY(-50%);
+
+            h3 {
+                font-size: 40px;
+                font-family: 'Lilita One', cursive;
+                color: #3B200B;
+                text-transform: uppercase;
+
+                span {
+                    font-family: 'Lilita One', cursive;
+                    background-color: #F59A1B;
+                    padding: 4px 8px;
+                    border-radius: 4px;
+                }
+            }
+
+            p {
+                color: #1D0605B0;
+                padding: 10px 0 20px 0;
+            }
+        }
+    }
+
+    .right {
+        background-color: #3B200B;
+        width: 52vw;
+
+        h3 {
+            margin: 60px 0 20px 40px;
+            color: #F59A1B;
+            text-transform: uppercase;
+            font-family: 'Lilita One', cursive;
+            font-size: 32px;
+        }
+    }
+}

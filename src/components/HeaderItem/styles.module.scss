@@ -1,0 +1,46 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 92%;
+
+    .body {
+        background-color: #fff;
+        width: 1000px;
+        height: 100px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0px 4px 40px 0px #B29B8480;
+
+        span {
+            background-color: rgb(186, 186, 186);
+            width: 1px;
+            height: 60px;
+        }
+
+        div {
+            display: flex;
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                padding-left: 16px;
+                gap: 10px;
+
+                h6 {
+                    font-family: 'Lilita One', cursive;
+                    font-size: 20px;
+                    color: #1D0605E5;
+                }
+
+                P {
+                    color: #615453e5;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
