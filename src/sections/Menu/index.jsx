@@ -15,19 +15,19 @@ function Menu() {
             <div className={styles.right}>
                 <h3>Cardápio imperial | Burger</h3>
                 <li>
-                    <h6>Classic burger .........................................................................</h6>
+                    <h6>Classic burger ......................................................................... $49,00</h6>
                     <p>Hamburguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata</p>
                 </li>
                 <li>
-                    <h6>Classic burger .........................................................................</h6>
+                    <h6>Classic burger ......................................................................... $49,00</h6>
                     <p>Hamburguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata</p>
                 </li>
                 <li>
-                    <h6>Classic burger .........................................................................</h6>
+                    <h6>Classic burger ......................................................................... $49,00</h6>
                     <p>Hamburguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata</p>
                 </li>
                 <li>
-                    <h6>Classic burger .........................................................................</h6>
+                    <h6>Classic burger ......................................................................... $49,00</h6>
                     <p>Hamburguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata</p>
                 </li>
             </div>

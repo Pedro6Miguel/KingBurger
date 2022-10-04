@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 80px 260px;
+    background-color: lightblue;
+
+    img {
+        width: 500px;
+    }
+
+    div {
+        h3 {
+            font-size: 40px;
+            text-transform: uppercase;
+
+            .first {
+                font-family: 'Lilita One', cursive;
+                color: #3B200B;
+                padding-left: 8px;
+            }
+
+            .custom {
+                font-family: 'Lilita One', cursive;
+                background-color: #F59A1B;
+                padding: 4px 8px;
+                border-radius: 4px;
+                color: #3B200B;
+            }
+        }
+
+        p {
+            color: #1D0605B0;
+            padding: 10px 0 20px 0;
+        }
+    }
+}
