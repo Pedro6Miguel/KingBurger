@@ -6,8 +6,8 @@ import HeaderItem from '../../components/HeaderItem'
 function Header() {
     return (
         <div className={styles.container}>
-            <Navbar />
             <div className={styles.header}>
+                <Navbar />
                 <div>
                     <h5>Uma nova experiência!</h5>
                     <h1>KING <span>BURGER</span></h1>
