@@ -1,0 +1,40 @@
+.order {
+    margin: 0 260px 80px 260px;
+    background-color: #F43127;
+    border-radius: 10px;
+    padding: 16px 20px 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .information {
+
+            h4 {
+                font-family: 'Lilita One', cursive;
+                color: #1d0605ac;
+                text-transform: uppercase;
+                font-size: 25px;
+            }
+
+            p {
+                color: #fff;
+                padding-top: 6px;
+            }
+
+        }
+
+    }
+
+    .right {
+        button {
+            background-color: #fff;
+            border: 1px solid #fff;
+            color: #F43127;
+        }
+    }
+}

@@ -9,10 +9,10 @@ function Navbar() {
         <nav className={styles.nav}>
             <img src={Logo} alt="" />
             <span className={styles.nav_items}>
-                <li>Promoção</li>
-                <li>Cardapio</li>
-                <li>Comentario</li>
-                <li>Contato</li>
+                <a href=""><li>Promoção</li></a>
+                <a href=""><li>Cardapio</li></a>
+                <a href=""><li>Comentario</li></a>
+                <a href=""><li>Contato</li></a>
             </span>
             <button><AiOutlineWhatsApp size={30} /> Contato</button>
         </nav>

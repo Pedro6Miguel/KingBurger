@@ -1,0 +1,54 @@
+.container {
+    h3 {
+        font-family: 'Lilita One', cursive;
+        font-size: 36px;
+        color: #1D0605E5;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    p {
+        color: #1d0605b0;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    iframe {
+        width: 100vw;
+        padding: 40px 0 0 0;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 260px;
+
+        .socials {
+            display: flex;
+            gap: 20px;
+
+            a:nth-child(1) {
+                padding-top: 3px;
+            }
+
+            a:nth-child(2) {
+                padding-top: 2px;
+            }
+        }
+    }
+
+    .bottom {
+        margin: 0 260px;
+        border-top: 1px solid #1d060529;
+
+        p {
+            color: rgb(29, 29, 29);
+        }
+
+        span {
+            color: rgba(121, 121, 121, 0.644);
+            padding-left: 4px;
+        }
+    }
+}
