@@ -1,6 +1,67 @@
-.container {
-    border-top: 1px solid #1d060551;
-    margin: 80px 260px;
-    padding: 76px 0;
-    background-color: lightseagreen;
+.body {
+    margin: 0 260px;
+    background: linear-gradient(to left, #FAF3F2 0%, rgba(255, 255, 255, 0) 19%);
+    z-index: 1;
+
+    h3 {
+        font-family: 'Lilita One', cursive;
+        color: rgba(28, 6, 5, 0.975);
+        text-transform: uppercase;
+        font-size: 36px;
+    }
+
+    .body_text {
+        color: rgba(29, 6, 5, 0.69);
+        padding: 4px 0 20px 0;
+    }
+
+    .carousel {
+        cursor: grab;
+        overflow: hidden;
+
+        .inner_carousel {
+            display: flex;
+            gap: 20px;
+
+            .item {
+                background-color: #fff;
+                min-height: 180px;
+                min-width: 340px;
+                height: 180px;
+                width: 340px;
+                padding: 20px;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                box-shadow: 0px 4px 25px 0px rgba(60, 35, 13, 0.1);
+                z-index: -1;
+
+                p {
+                    color: #635352;
+                }
+
+                .review {
+                    font-size: 18px;
+                }
+
+                .person_info {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    h5 {
+                        font-family: 'Lilita One', cursive;
+                        color: hsla(3, 71%, 7%, 0.906);
+                        text-transform: uppercase;
+                        font-size: 22px;
+                    }
+
+                    p {
+                        color: rgba(29, 6, 5, 0.69);
+                    }
+                }
+            }
+        }
+    }
 }
