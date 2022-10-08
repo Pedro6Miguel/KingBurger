@@ -24,6 +24,12 @@
         div {
             display: flex;
 
+            img {
+                width: 60px;
+                height: 60px;
+                padding: 5px 0 0 0;
+            }
+
             .item {
                 display: flex;
                 flex-direction: column;
@@ -34,6 +40,7 @@
                     font-family: 'Lilita One', cursive;
                     font-size: 20px;
                     color: #1D0605E5;
+                    text-transform: uppercase;
                 }
 
                 P {
