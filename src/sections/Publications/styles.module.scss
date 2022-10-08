@@ -33,10 +33,21 @@
 
     .hashtag {
         height: 60px;
-        width: 300%;
+        width: 340%;
         background-color: #F59A1B;
         display: flex;
         align-items: center;
+        animation: hashtag 20s linear infinite;
+
+        @keyframes hashtag {
+            0% {
+                transform: translate(0);
+            }
+
+            100% {
+                transform: translate(-50%);
+            }
+        }
 
         h3 {
             text-transform: uppercase;

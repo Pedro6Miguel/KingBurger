@@ -18,7 +18,7 @@ function Publications() {
                 })}
             </div>
             <div className={styles.hashtag}>
-                <h3>#empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger</h3>
+                <h3>#empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger</h3>
             </div>
         </div>
     )
