@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    max-width: 2000px;
+    max-width: 1920px;
     position: relative;
 
     .header {
@@ -9,7 +9,7 @@
         background: url(../../assets/img/Banner.svg) no-repeat top center;
         position: relative;
 
-        div {
+        .intro {
             margin-left: 260px;
             position: absolute;
             top: 45%;
@@ -43,4 +43,14 @@
     }
 }
 
-@media only screen and (max-width: 1500px) {}
+@media only screen and (max-width: 1500px) {
+    .intro {
+        margin-left: 120px !important;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    .intro {
+        margin-left: 20px !important;
+    }
+}

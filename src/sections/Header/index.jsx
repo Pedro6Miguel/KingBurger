@@ -7,8 +7,8 @@ function Header() {
     return (
         <div className={styles.container}>
             <div className={styles.header}>
-                <Navbar />
-                <div>
+                {/*<Navbar />*/}
+                <div className={styles.intro}>
                     <h5>Uma nova experiência!</h5>
                     <h1>KING <span>BURGER</span></h1>
                     <p>Para quem tem um Apetite de um REI!</p>
