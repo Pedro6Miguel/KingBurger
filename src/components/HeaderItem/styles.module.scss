@@ -7,7 +7,7 @@
 
     .body {
         background-color: #fff;
-        width: 1000px;
+        width: 1100px;
         height: 100px;
         border-radius: 10px;
         display: flex;
@@ -47,6 +47,38 @@
                     color: #615453e5;
                     font-weight: 400;
                 }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    .body {
+        width: 900px !important;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .body {
+        margin: 0 60px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .container {
+        top: 86%;
+
+        .body {
+            padding: 20px 20px;
+            width: 460px !important;
+            flex-direction: column;
+            height: 100% !important;
+            gap: 30px;
+
+            span {
+                background-color: rgb(186, 186, 186);
+                width: 240px !important;
+                height: 1px !important;
             }
         }
     }

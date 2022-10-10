@@ -9,7 +9,7 @@ function HeaderItem() {
     return (
         <div className={styles.container}>
             <div className={styles.body}>
-                <div>
+                <div className={styles.teste}>
                     <img src={HeaderBurger} alt="" />
                     <div className={styles.item}>
                         <h6>Artesanal</h6>
@@ -17,15 +17,15 @@ function HeaderItem() {
                     </div>
                 </div>
                 <span></span>
-                <div>
+                <div className={styles.teste}>
                     <img src={HeaderDelivery} alt="" />
                     <div className={styles.item}>
                         <h6>Atendimento</h6>
-                        <p>Totalmente<br></br> personalizado</p>
+                        <p>Totalmente personalizado</p>
                     </div>
                 </div>
                 <span></span>
-                <div>
+                <div className={styles.teste}>
                     <img src={HeaderHeadphones} alt="" />
                     <div className={styles.item}>
                         <h6>Artesanal</h6>
