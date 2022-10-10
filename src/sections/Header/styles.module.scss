@@ -1,5 +1,6 @@
 .container {
-    width: 100vw;
+    width: 100%;
+    max-width: 2000px;
     position: relative;
 
     .header {
@@ -41,3 +42,5 @@
         }
     }
 }
+
+@media only screen and (max-width: 1500px) {}
