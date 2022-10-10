@@ -1,11 +1,13 @@
 import React from 'react'
 import styles from './styles.module.scss'
+
 import Banner2 from '../../assets/img/Banner2.svg'
 
 function Menu() {
     return (
         <div className={styles.container}>
             <div className={styles.left}>
+                <img src={Banner2} alt="" />
                 <div className={styles.info}>
                     <h3>Escolha o seu combo<br></br> imperial, <span>peça agora!</span></h3>
                     <p>Temos vários tipos de pratos para a nossa realeza, fique<br></br> esperto porque temos sempre  promoção!</p>

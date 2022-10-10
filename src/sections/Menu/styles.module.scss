@@ -3,12 +3,17 @@
 
     .left {
         position: relative;
-        background: url(../../assets/img/Banner2.svg) no-repeat;
-        width: 48vw;
+        object-fit: cover;
+
+        img {
+            width: 50vw;
+            height: 700px;
+            object-fit: cover !important;
+        }
 
         .info {
             position: absolute;
-            right: 40px;
+            right: 60px;
             top: 50%;
             transform: translateY(-50%);
 
@@ -35,10 +40,10 @@
 
     .right {
         background-color: #3B200B;
-        width: 52vw;
+        width: 50%;
 
         h3 {
-            margin: 60px 0 20px 40px;
+            margin: 40px 0 20px 40px;
             color: #F59A1B;
             text-transform: uppercase;
             font-family: 'Lilita One', cursive;
@@ -58,5 +63,58 @@
                 padding: 0 0 4px 0;
             }
         }
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .container {
+        margin: 100px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .container {
+        flex-direction: column;
+
+        .left {
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .right {
+            width: 100%;
+
+            h3 {
+                margin: 40px 0 20px 60px;
+            }
+
+            li {
+                color: #fff;
+                margin: 0 0 30px 60px;
+                margin-right: 40px;
+
+                h6 {
+                    letter-spacing: 1.5px;
+                    font-size: 20px;
+                    font-family: 'Lilita One', cursive;
+                    text-transform: uppercase;
+                    padding: 0 0 4px 0;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .container {
+        margin: 360px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .container {
+        display: none;
     }
 }
