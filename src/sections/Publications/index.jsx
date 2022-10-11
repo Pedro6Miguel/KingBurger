@@ -13,12 +13,30 @@ function Publications() {
             <div className={styles.content}>
                 {burgerImages.map((image) => {
                     return (
-                        <img src={image} alt="" />
+                        <div>
+                            <img src={image} alt="" />
+                        </div>
                     )
                 })}
             </div>
-            <div className={styles.hashtag}>
-                <h3>#empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger • #empireburger</h3>
+            <div className={styles.looptext}>
+                <div>
+                    <h3>• #empireburger</h3>
+                    <h3>• #empireburger</h3>
+                    <h3>• #empireburger</h3>
+                    <h3>• #empireburger</h3>
+                    <h3>• #empireburger</h3>
+                    <h3>• #empireburger</h3>
+                    <h3>• #empireburger</h3>
+                    <h3>• #empireburger</h3>
+                    <h3>• #empireburger</h3>
+                    <h3>• #empireburger</h3>
+                    <h3>• #empireburger</h3>
+                    <h3>• #empireburger</h3>
+                    <h3>• #empireburger</h3>
+                    <h3>• #empireburger</h3>
+                    <h3>• #empireburger</h3>
+                </div>
             </div>
         </div>
     )

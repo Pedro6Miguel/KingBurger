@@ -66,3 +66,21 @@
         }
     }
 }
+
+@media only screen and (max-width: 1500px) {
+    .body {
+        margin: 0 120px;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    .body {
+        margin: 0 60px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .body {
+        margin: 0 20px;
+    }
+}

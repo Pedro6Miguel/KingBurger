@@ -4,7 +4,7 @@ import styles from './styles.module.scss'
 import { motion } from "framer-motion"
 import { useRef, useEffect, useState } from "react"
 
-import ProfilePicture from '../../assets/img/ProfilePicture.svg'
+import ProfilePicture from '../../assets/img/ProfilePicture.png'
 
 function Reviews() {
 
