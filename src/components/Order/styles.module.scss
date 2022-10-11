@@ -62,3 +62,10 @@
         display: none;
     }
 }
+
+
+@media only screen and (max-width: 450px) {
+    .order {
+        margin: 0 20px 80px 20px;
+    }
+}
