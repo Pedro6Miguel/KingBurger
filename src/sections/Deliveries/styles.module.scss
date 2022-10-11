@@ -4,13 +4,14 @@
     padding: 80px 0;
     display: flex;
     align-items: center;
-    gap: 90px;
+    gap: 40px;
 
     .image {
         width: 600px;
     }
 
     .info {
+        width: 100%;
 
         h3 {
             font-size: 36px;
@@ -46,5 +47,45 @@
             background-color: #fff;
             box-shadow: 0px 4px 40px 0px #B29B8480;
         }
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .container {
+        margin: 80px 120px 0 120px;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    .container {
+        margin: 80px 60px 0 60px;
+
+        .image {
+            width: 500px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+
+        .image {
+            width: 400px;
+        }
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .container {
+
+        .image {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .container {
+        margin: 80px 20px 0 20px;
     }
 }

@@ -19,8 +19,8 @@ function App() {
       <CustomerService />
       <Reviews />
       <Publications />
-      {/*<Deliveries />
-      <Footer />*/}
+      <Deliveries />
+      <Footer />
     </div>
   )
 }
