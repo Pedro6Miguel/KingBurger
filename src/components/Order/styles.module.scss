@@ -38,3 +38,27 @@
         }
     }
 }
+
+@media only screen and (max-width: 1500px) {
+    .order {
+        margin: 0 120px 80px 120px;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    .order {
+        margin: 0 60px 80px 60px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .order {
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .order {
+        display: none;
+    }
+}
