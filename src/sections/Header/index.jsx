@@ -8,7 +8,7 @@ function Header() {
         <>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    {/*<Navbar />*/}
+                    <Navbar />
                     <div className={styles.intro}>
                         <h5>Uma nova experiência!</h5>
                         <h1>KING <span>BURGER</span></h1>
@@ -20,7 +20,7 @@ function Header() {
             </div>
             <div className={styles.container_mobile}>
                 <div className={styles.header}>
-                    {/*<Navbar />*/}
+                    <Navbar />
                     <div className={styles.intro}>
                         <h5>Uma nova experiência!</h5>
                         <h1>KING <span>BURGER</span></h1>
