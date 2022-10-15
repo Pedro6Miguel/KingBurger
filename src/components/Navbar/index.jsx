@@ -6,7 +6,7 @@ import { AiOutlineWhatsApp } from "react-icons/ai";
 import Logo from '../../assets/img/Logo.svg'
 
 function Navbar() {
-    const [isShowLinks, setShowLinks] = useState(true);
+    const [isShowLinks, setShowLinks] = useState(false);
 
     return (
         <nav className="nav">

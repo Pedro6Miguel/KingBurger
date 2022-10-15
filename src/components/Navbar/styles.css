@@ -8,6 +8,7 @@
 
 .responsive {
     display: none;
+    cursor: pointer;
 }
 
 button {
@@ -59,10 +60,11 @@ button {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        gap: 50px;
     }
 
     .nav_mobile li {
+        font-weight: 700;
         font-size: 80px;
         text-transform: uppercase;
     }
